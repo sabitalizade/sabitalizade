@@ -1,0 +1,370 @@
+
+//reset something
+*{
+          text-decoration: none;
+          color: white;
+          border: none;
+          &:focus{
+                    outline: 0;
+          }
+}
+::-webkit-scrollbar{
+   width: 5px;
+   background: #757575;
+}
+::-webkit-scrollbar-thumb{
+   background: linear-gradient(transparent,#242424);
+   border-radius: 10px;
+}
+body{
+   background: rgb(71, 71, 71);
+}
+.continer{
+   
+  
+          width: 100%;
+          background: rgb(71, 71, 71);
+          border-bottom: 1px solid #9e9e9e;
+          
+          .header{
+                    display: flex;
+                    align-items: center;
+                    height: 60px;
+                    justify-content: space-between;
+                   width: 100%;
+                   margin: 0 auto;
+                   
+                   .alltype{
+                      display: flex;
+                      align-items: center;
+                     
+            
+                    .logo{
+                       display: block;
+                              a{
+                                        display: block;
+                                        padding: 0 20px;
+                                        font-size: 25px;
+                                        line-height: 60px;
+                                        font-family:'Lucida Sans', 
+                                           'Lucida Sans Regular', 'Lucida Grande',
+                                            'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                        color: rgb(192, 197, 201);
+                                        transition: 500ms ease;
+                                        img{
+                                           width: 50px;
+                                           height: 50px;
+                                           float: left;
+                                           padding-top: 5px;
+                                        }
+                                        p{
+                                           float: left;
+                                           padding-left: 5px;
+                                        }
+                                       
+                               }
+                     
+
+                    }
+                  }
+                  .nexttype{
+                     overflow: hidden;  
+                     display: flex;
+                     align-items: center;                
+                    .search{
+                         flex: 1 ;
+                        //margin:0  50px;
+                              form{
+                                        
+                                        position: relative;
+                                        input{
+                                             
+                                               padding-left: 15px;
+                                                  height: 35px;
+                                                  width: 100%;
+                                                  color: rgb(32, 32, 32);
+                                                  box-sizing: border-box;
+                                                  border-radius: 35px;
+                                        }
+                                        button{
+                                                  position: absolute;
+                                                  top: 0;
+                                                  right: 0;
+                                                  height: 35px;
+                                                  width: 35px;
+                                                  background: transparent;
+                                                  cursor: pointer;
+                                                 .fa{
+                                                  color: black;
+                                                 }
+                                        }
+                              }
+                    }
+                    .menu{
+                              //margin-left: 15px;
+                              ul{
+                                        display: flex;
+                                        li{
+                                                  a{
+                                                            padding: 0 20px;
+                                                            line-height: 60px;
+                                                            display: block;
+                                                            font-size: 16px;
+                                                            font-weight: 500;
+                                                            color: rgb(161, 161, 161);
+                                                            transition: .5s ease-in;
+                                                            &:hover{
+                                                                     // color: rgb(255, 255, 255);
+                                                                      background: rgb(92, 92, 92);
+                                                                      color: #00098d;
+                                                             // border-bottom: 1px solid  #000655;
+                                                            }
+                                                  }
+                                        }
+                              }
+                    }
+                    .social{
+                              ul{
+                                        display: flex;
+                                        li{
+                                                  a{
+                                                            display: flex;
+                                                            height: 35px;
+                                                            width: 35px;
+                                                            border-radius: 50%;
+                                                            align-items: center;
+                                                            justify-content: center;                                                            
+                                                            margin: 0 15px;
+                                                            transition: .5s;
+                                                            &:hover{
+                                                               background-color: #c2c2c2 !important;
+                                                       & .fa-facebook-f{
+                                                                  color: #3b5998;                                                      
+                                                        }
+                                                        & .fa-instagram{
+                                                                  color: #c13584;
+                                                        }
+                                                        & .fa-linkedin-in{
+                                                                  color: #0077b5;
+                                                        }
+                                                        & .fa-stack-overflow{
+                                                                   color: #f48024;
+                                                        }
+                                                        & .fa-twitter{
+                                                                  color: #1da1f3;
+                                                        }                                                     
+                                                            }
+                                                            
+                                                  }
+                                                  &.face a{
+                                                            background: #3b5998;                                                      
+                                                  }
+                                                  &.insta a{
+                                                            background: #c13584;
+                                                  }
+                                                  &.linkedin a{
+                                                            background: #0077b5;
+                                                  }
+                                                  &.stack a{
+                                                             background: #f48024;
+                                                  }
+                                                  &.twitter a{
+                                                            background: #1da1f3;
+                                                  }
+                                        }
+                              }
+                    }
+                  }
+
+          }
+         
+
+} 
+.burger{
+display: none;    
+}
+         
+@media screen and (max-width: 1070px){
+.header{
+   width: 100% !important;
+   box-sizing: border-box;
+   padding: 0 ;
+}
+
+}
+@media screen and (max-width: 1020px){
+
+   .continer{
+   border-bottom: none;
+ }
+ .nav-active{
+    left: 0 !important;
+    z-index: 999;
+  } 
+.burger{
+      display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            //margin-right: 40px;
+            cursor: pointer;
+         height: 60px;
+         width: 60px;
+         div{
+           transition:0.2s ease;
+            margin: 4px 0;
+            width: 35px;
+            height: 2px;
+            background-color: rgb(192, 197, 201);
+         }
+      }
+   .header{
+      border-bottom: 1px solid #9e9e9e;
+      padding: 0;
+      .alltype{
+        
+         justify-content: space-between;
+         width: 100%;
+            .logo{
+               a{
+                  display: block;
+               }
+               
+            }
+         }
+      }
+         .nexttype{
+           // padding: 0 30px;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            top: 60px;
+            width: 100%;
+            height: calc(100vh - 60px);
+            left: -100%;
+            box-sizing: border-box;
+            background-color: #2b2b2b;
+            transition: .2s ease;
+            .search{
+               flex: 0 !important;
+               width: 100%;
+               height: 35px;             
+                margin: 30px 50px;
+                form{
+                   margin: 0 50px;
+                }
+                 }
+            .menu{
+              // flex: 1;
+               width: 100%;
+               text-align: center;
+               margin: 0;
+               margin-bottom: 100px;
+               ul{
+                  display: flex;
+                  flex-direction: column;
+                  li{
+                     a{
+                        display: block;
+                        left: 0;
+                        &:hover{
+                           .animeline{
+                            animation:wht 1s both;
+                           @keyframes wht {
+                              from{
+                                 width: 0;
+                              }
+to{
+                                 width: 100%;
+                              }
+                           }}
+                        }
+                        .animeline{
+                        height: 1px;
+                        width: 0;
+                        border-radius: 1px;
+                        background: white;                        
+                     }     
+                     }
+                  }
+               }
+            }
+            .social{
+               
+               width: 100%;
+             margin: 30px 0;
+              ul{ 
+                // 
+               width: 100%;  
+               display: flex;
+              justify-content: space-between;
+             
+              }
+            }
+         }
+     }
+   .toggle {
+      .line1{
+      transform: rotate(-405deg) translate(-8px,6px) !important;
+      }
+     .line2{
+         opacity: 0 !important;
+      }
+      .line3{
+         transform: rotate(405deg) translate(-8px,-6px) !important;
+ 
+      }
+   }
+   .infopart{
+      width: 100%;
+     // height: calc(100vh - (80px + 61px));
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around ;
+      .sale{
+         width: 100%;
+          display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         p{
+            padding: 20px 0;
+            font-size: 26px;
+            color: rgb(197, 197, 197);
+         }
+
+      }
+      .contactinfo{
+          width: 100%;
+          display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         p{
+            padding: 20px 0;
+            font-size: 26px;
+            letter-spacing: 1px;
+            color: rgb(197, 197, 197);
+         }
+
+      }
+   }
+   @media(max-width:900px){
+      .infopart{
+         .sale{
+         p{
+                     padding: 20px 15px;
+                     text-align: center;
+         }
+         }
+      } 
+   }
+   .footer{
+      display: flex;
+      width: 100%;
+      height: 80px;
+      align-items: center;
+      justify-content: center;
+      background-image: linear-gradient(to right, rgb(71, 71, 71),rgba(0, 0, 0,0.6), rgb(71, 71, 71));
+   }
