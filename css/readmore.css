@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  padding: 40px 0;
+  background: #131419;
+}
+
+.container .blogmain {
+  margin: auto;
+  margin-bottom: 40px;
+  max-width: 1200px;
+  min-height: calc( 100vh - 140px);
+  background: #131419;
+  border-radius: 20px;
+  -webkit-box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05), 5px 5px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05), 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container .blogmain .bloghead {
+  height: 80px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container .blogmain .bloghead .space {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .blogmain .bloghead .space img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.container .blogmain .bloghead .space .blogtitle {
+  font-size: 26px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0 0 0 40px;
+}
+
+.container .blogmain .bloghead .blogtime {
+  font-style: italic;
+  color: #555555;
+}
+
+.container .blogmain .texthere {
+  padding: 20px 50px 50px 60px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=readmore.css.map */

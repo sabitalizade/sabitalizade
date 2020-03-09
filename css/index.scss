@@ -1,0 +1,70 @@
+
+@media screen and (max-width: 1020px){
+   .blogpg{
+     .blogs{
+        width: 100% !important;
+           }
+  }
+}
+   //Blog yaazilari 
+  .blogpg{
+      width: 100%;     
+      display: flex;  
+      background-color: #131419;    
+      .blogs{ 
+         width: 1100px;
+         background: #131419;
+         margin: 0 auto;  
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+         flex-wrap: wrap;
+         
+         .bgcont{
+            box-sizing: border-box;
+            width: 500px;
+            height: 300px;
+            margin: 40px 20px 40px 20px;            
+            background: #131419;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;  
+            box-shadow: -5px -5px 10px rgba(255, 255, 255,0.05),
+                           5px 5px 10px  rgba(0, 0, 0,0.5);
+                           .bg_tittle{
+                              display: flex;
+                              height: 70px;
+                              img{
+                              width: 50px;
+                              margin: 10px 10px 10px 40px;
+                              border-radius: 50%;                              
+                                 }
+                           h2{
+                              font-size: 26px;
+                              line-height: 70px;
+                              overflow: hidden;
+                           }
+                           }
+                           
+                           p{
+                              padding: 10px 20px;
+                              overflow: hidden;
+                             text-align: center;
+                           }
+                           a{
+                              display:block;
+                              padding: 10px 15px;
+                              border-radius: 5px;
+                              margin: 10px auto;
+                              width: 70px;
+                             
+                              &:hover{
+                                background:rgb(0, 87, 68) ;
+                              }
+                              border: 1px solid rgb(0, 87, 68);
+                           }
+         }
+
+
+      }
+   }

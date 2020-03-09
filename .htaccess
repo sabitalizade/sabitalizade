@@ -1,0 +1,8 @@
+RewriteEngine On 
+
+RewriteCond %{HTTP_HOST} sabitalizade.com [nc]
+RewriteRule (.*) //www.sabitalizade.com/$1 [R=301,L]
+
+
+RewriteRule ^([0-9a-zA-Z-_]+)$ index.php?sayfa=$1 [L,QSA]
+RewriteRule ^$ index.php  [L,QSA] 

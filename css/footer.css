@@ -1,0 +1,20 @@
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(#474747), color-stop(rgba(0, 0, 0, 0.6)), to(#474747));
+  background-image: linear-gradient(to right, #474747, rgba(0, 0, 0, 0.6), #474747);
+}
+
+.footer .copyright {
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=footer.css.map */

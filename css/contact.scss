@@ -1,0 +1,47 @@
+
+   .infopart{
+      width: 100%;
+     // height: calc(100vh - (80px + 61px));
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around ;
+      .sale{
+         width: 100%;
+          display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         p{
+            padding: 20px 0;
+            font-size: 26px;
+            color: rgb(197, 197, 197);
+         }
+
+      }
+      .contactinfo{
+          width: 100%;
+          display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         p{
+            padding: 20px 0;
+            font-size: 26px;
+            letter-spacing: 1px;
+            color: rgb(197, 197, 197);
+         }
+
+      }
+   }
+   @media(max-width:900px){
+      .infopart{
+         .sale{
+         p{
+                     padding: 20px 15px;
+                     text-align: center;
+         }
+         }
+      } 
+   }
+  
