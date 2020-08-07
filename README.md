@@ -1,7 +1,7 @@
-### Hi there, I'm Jesse - aka [codeSTACKr][website] 👋
+### I'm Sabit Alizade
 
-## I'm a Husband, Father, Developer, and Teacher!
-- 🔭 I’m currently working on a [VS Code Course][website]!
+## I'm a Junior Front End Developer!
+!
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other content creators
 - 🥅 2020 Goals: Contribute more to Open Source projects
@@ -65,11 +65,11 @@
 
 <img align="left" alt="codeSTACKr's Github Stats" src="https://github-readme-stats.vercel.app/api?username=codeSTACKr&show_icons=true&hide_border=true" />
 
-[website]: https://codeSTACKr.com
-[twitter]: https://twitter.com/codeSTACKr
-[youtube]: https://youtube.com/codeSTACKr
-[instagram]: https://instagram.com/codeSTACKr
-[linkedin]: https://linkedin.com/in/codeSTACKr
+[website]: https://sabitalizade.com 
+[twitter]: https://twitter.com/sabit_alizade 
+[youtube]: https://www.youtube.com/channel/UCNwDlxTBUjEEEXZ1b7lMWDQ?view_as=subscriber 
+[instagram]: https://instagram.com/sabitalizade 
+[linkedin]: https://www.linkedin.com/in/sabit-alizade-133189174/
 [webdevplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrAJ0WbEsFA9W3I1W-g_BTsbt
 [jsplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrALRJKu7wfXby3MKeflhTu6B
 [cssplaylist]: https://www.youtube.com/playlist?list=PLkwxH9e_vrALSdvZuEh6gqQdmDoDIoqz4
