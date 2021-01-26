@@ -1,9 +1,9 @@
 ### I'm Sabit Alizade
 
 ## I'm a Junior Front End Developer!
-- 🌱 I’m currently learning Redux
+- 🌱 I’m currently learning Vuejs
 - 👯 I’m looking to collaborate with other content creators
-- 🥅 2020 Goals: Contribute more to Open Source projects
+- 🥅 2021 Goals: Contribute more to Open Source projects
 - ⚡ Fun fact: I love to draw and play guitar 
 
 ### Connect with me:
