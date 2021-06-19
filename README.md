@@ -1,5 +1,3 @@
-### I'm Sabit Alizade
-
 ## I'm a Junior Front End Developer!
 - 🌱 I’m currently learning Vuejs
 - 👯 I’m looking to collaborate with other content creators
