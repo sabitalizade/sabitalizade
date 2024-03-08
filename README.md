@@ -1,7 +1,7 @@
 ## I'm a Front End Developer!
 - 🌱 I’m currently learning GO Lang
 - 👯 I’m looking to collaborate with other content creators
-- 🥅 2022 Goals: Contribute more to Open Source projects
+- 🥅 2024 Goals: Contribute more to Open Source projects
 - ⚡ Fun fact: I love to draw and play guitar 
 
 ### Connect with me:
